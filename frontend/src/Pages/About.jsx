@@ -1,7 +1,8 @@
 import React from "react";
 import SectionTitle from "../components/SectionTitle";
 import { assets } from "../assets/frontend_assets/assets";
-import NewsletterBox from "../components/NewsletterBox";
+import NewsletterBox from "../components/NewsLetterBox"
+
 
 const About = () => {
   return (
