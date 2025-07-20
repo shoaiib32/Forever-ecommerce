@@ -10,7 +10,7 @@ const ShopContextProvider = (props) => {
   const delivery_fee = 10;
   const [token, setToken] = useState("");
   const navigate = useNavigate();
-  const serverURL = "http://localhost:4000";
+  const serverURL = "https://forever-ecommerce-backend-9ay8.onrender.com";
   const [search, setSearch] = useState("");
   const [showSearch, setShowSearch] = useState(false);
   const [cartItems, setCartItems] = useState({});
